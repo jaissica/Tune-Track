@@ -10,44 +10,33 @@ B. To run the project, you need to have MYSQL Workbench in your system to create
 C. Once you are done with the installation part, please run the data export SQL File “” in your MySQL workbench to create the Database, Tables, Functions, Procedures, Triggers and to dump the data into the tables to run the project.
 D. Once the above script is executed in MySQL workbench and database is created. Please run the Python script in your PyCharm. In order to connect to the created “Musicly” database in MySQL workbench you need to enter your local username and password.
 E. Once, you press the enter a GUI will appear with “Connect to Database” and “Exit” options. To proceed further please click on “Connect to Database”
-   
-Project Name: Musicly Team: ThakurUHoraJ
 F. Once you click on “Connect to Database” a new window will appear with SignIn, SignUp and Exit option. As you are new user, please click on “SignUp” button to create your account or if have already created your account please click on “SignIn” button or if you want to exit, please click on “Exit”
  G. If you clicked on “SignUp” button, then below window will appear and please enter the mentioned fields and click on “Next”. This will create a new record for the user in the users table. And this will implement the CREATE part of the CRUD operation.
- 
-Project Name: Musicly Team: ThakurUHoraJ
 H. If you clicked on “SignIn” button, then you need to enter the existing username and password else it will throw an exception as follows:
- I. Once you click on the “Next” button a below window will appear with all the options that can perform CRUD operation based on selection.
- 
-Project Name: Musicly Team: ThakurUHoraJ
+I. Once you click on the “Next” button a below window will appear with all the options that can perform CRUD operation based on selection.
 J. If you click on “Song Info” button, below window will appear and you can select the song from the drop to for which you want to fetch or READ the information from the database. After selecting the song from the drop down please click on “Click Me” button and then click on “Next” to display the retrieved information or “EXIT” or can go to “HOME”. Similarly, if you want to fetch the details for Artist and User, you can click on “Artist Info” and “User Info” button respectively and proceed in the similar manner. This will implement the READ part of the CRUD operation.
 For Song Info:
  For Artist Info:
- 
-Project Name: Musicly Team: ThakurUHoraJ
-For User Info:
+ For User Info:
  K. Once you click “Next” button, below window will appear that will show the data retrieved from the database for the selected song. And similarly for the User Info and Artist Info.
- 
-Project Name: Musicly Team: ThakurUHoraJ
 L. M.
 After reviewing the information, you can click on “Home” to go to the main options window, or you can click on “EXIT”.
 If you select the “Modify Song Review” button from the main options, then the below window will appear and then please select the Song from the drop down on which you want to Update Review or want to Add a new review. Similarly, you can Add or Update the review for an Artist by clicking on “Modify Artist Review” button. This will perform the Update part of the CRUD operation.
- N.
+N.
 If you select the “Modify Song Rating” button from the main options and you want to delete the rating for a song, a below window will appear and you can select the song from the drop down and click on “Click Me” button and then click on “Delete Rating” button. This will delete the rating for the selected song. Similarly, you can delete the rating for an Artist by clicking on “Modify Artist Rating”. This will perform the DELETE part of the CRUD operation.
 
-Project Name: Musicly Team: ThakurUHoraJ
- O. If you click on “Search Songs” button, you will get the below window and you can choose to click on any button to fetch the list of songs for the selected option.
+O. If you click on “Search Songs” button, you will get the below window and you can choose to click on any button to fetch the list of songs for the selected option.
  
-Project Name: Musicly Team: ThakurUHoraJ
+
 Once you’re done performing the actions on the application you can click on “EXIT” button to close the application. And changes made in the database will persists and will reflect when you reopen the application again.
 2. Technical Specifications for the project:
 We have created database using MySQL workbench which will be able to create, read, update, and delete operations on specific data based on their access. We have created GUI in Python and used Tkinter framework for creating a user interactive interface which allows them to perform all the CRUD operations.
 3. UML
   
-Project Name: Musicly Team: ThakurUHoraJ
+
 4. Reverse Engineer your final schema
   
-Project Name: Musicly Team: ThakurUHoraJ
+
 5. User flow of the system:
   For the flow of the project, please refer point 1(README).
 6. Lessons Learned
@@ -66,11 +55,11 @@ functions along with that dealt all the exceptions.
 • Week 7: We loaded data into the tables and tested our Project.
   Whilst doing this project we learned more about Python and its framework for creating the Graphical User Interface and learned more about MySQL procedures, exception handling, triggers, and various other aspects of Database in MySQL to keep the data synchronized and normalized.
  
-Project Name: Musicly Team: ThakurUHoraJ
- 3. Realizedorcontemplatedalternativedesign/approachestotheproject
+ 
+ 3. Realized or contemplated alternative design/approaches to the project
 Initially, we started working on the front-end part of the code using Web Development concepts in Python using Flask framework, but we were not able to implement it successfully due to lack of knowledge about the Flask framework.
 Then switched our approach to Python for front end Graphical User Interface using Tkinter Framework.
-4. Documentanycodenotworkinginthissection
+4. Document any code not working in this section
 As of now we don’t have any component that is not functional.
   Future work
  1. Planned uses of the database:
