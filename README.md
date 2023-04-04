@@ -1,14 +1,14 @@
-# Musicly
-Project Name: Musicly
-“Musicly” is one stop for the user to get all the information about a song like Song’s Release date, Lyrics, Artists involved, Album/Movie, Genre, Language, Reviews, Ratings. In this application, a user can perform create, read, update, and delete operations based on the options selected. Musicly can be inferred as IMDB for the Music Industry in which user can makes changes after creating an account. User will also be able to search their top song preferences based on their mood, genre, language favorite artist and favorite song.
+# Tune Track
+Project Name: Tune Track
+“Tune Track” is one stop for the user to get all the information about a song like Song’s Release date, Lyrics, Artists involved, Album/Movie, Genre, Language, Reviews, Ratings. In this application, a user can perform create, read, update, and delete operations based on the options selected. Musicly can be inferred as IMDB for the Music Industry in which user can makes changes after creating an account. User will also be able to search their top song preferences based on their mood, genre, language favorite artist and favorite song.
 1. README:
 Below are the steps to run our program:
-A. To run our project (“Musicly”) you first need to install PyCharm on your machine.
+A. To run our project (“Tune Track”) you first need to install PyCharm on your machine.
 Below is the link for the same.
 link: https://www.jetbrains.com/pycharm/download/#section=windows
 B. To run the project, you need to have MYSQL Workbench in your system to create the database and perform all the commands, open Terminal and run the following command to import libraries pymysql & tkinter in your PyCharm.
 C. Once you are done with the installation part, please run the data export SQL File “” in your MySQL workbench to create the Database, Tables, Functions, Procedures, Triggers and to dump the data into the tables to run the project.
-D. Once the above script is executed in MySQL workbench and database is created. Please run the Python script in your PyCharm. In order to connect to the created “Musicly” database in MySQL workbench you need to enter your local username and password.
+D. Once the above script is executed in MySQL workbench and database is created. Please run the Python script in your PyCharm. In order to connect to the created “Tune Track” database in MySQL workbench you need to enter your local username and password.
 E. Once, you press the enter a GUI will appear with “Connect to Database” and “Exit” options. To proceed further please click on “Connect to Database”
 F. Once you click on “Connect to Database” a new window will appear with SignIn, SignUp and Exit option. As you are new user, please click on “SignUp” button to create your account or if have already created your account please click on “SignIn” button or if you want to exit, please click on “Exit”
  G. If you clicked on “SignUp” button, then below window will appear and please enter the mentioned fields and click on “Next”. This will create a new record for the user in the users table. And this will implement the CREATE part of the CRUD operation.
@@ -63,7 +63,7 @@ Then switched our approach to Python for front end Graphical User Interface usin
 As of now we don’t have any component that is not functional.
   Future work
  1. Planned uses of the database:
-  This database is very comprehensive to track the user activity on ‘’Musicly”. Along with this we can extend the database and provide various payment options to the users and restrict their flow based on their subscription.
- 2. Potentialareasforaddedfunctionality:Wecanaddpaymentfunctionalitytothe ‘’Musicly” system, along with this we can add a functionality to play the music as well. As of now our aim was to create a one stop place for the user to know all the information about their favorite artist and songs and implement all the CRUD operations but we can further extend this project to play songs as per their choice of artist, genre, mood, language.
+  This database is very comprehensive to track the user activity on ‘’Tune Track”. Along with this we can extend the database and provide various payment options to the users and restrict their flow based on their subscription.
+ 2. Potentialareasforaddedfunctionality:Wecanaddpaymentfunctionalitytothe ‘’Tune Track” system, along with this we can add a functionality to play the music as well. As of now our aim was to create a one stop place for the user to know all the information about their favorite artist and songs and implement all the CRUD operations but we can further extend this project to play songs as per their choice of artist, genre, mood, language.
 
 
